@@ -1,0 +1,70 @@
+# Name and Unique Identifier 
+meta:
+ name: 'Fab Lab Berlin'
+ uuid: '462992E6-88C1-4784-B2C8-714438C82831'
+
+contact:
+ email: 'dont-reply@fablab.berlin'
+ tel: '+491234567890'
+ website: 'https://fablab.berlin'
+
+social:
+ github: 'FabLabBerlin'
+ twitter: 'FabLabBerlin'
+ facebook: '12345'
+
+# Country, City and Postal Code
+location:
+ address: 'Prenzlauer Allee 242'
+ country: Germany
+ city: Berlin
+ state: Berlin
+ postcode: 10405
+
+# Current Status and Launch Date
+status: launched
+launch_date: 2015-06-01
+
+# Access and Infrastructure
+access_type: open
+barrier_free: yes
+wifi:
+ member_wifi:
+   'ssid':
+     - 'Fab Lab Members - Lounge'
+     - 'Fab Lab Members - R&D Center'
+ public_wifi:
+   ssid:
+     - 'berlin.freifunk.net'
+
+# Currency and Units
+locales:
+ currency: euro
+ measurement_unit: metric
+ language: de_DE
+
+# Machines
+machines:
+  'Trotec Speedy 400':
+    vendor: 'Trotec'
+    model: 'Speedy 400'
+    meta:
+      type: 'laser'
+      parameters:
+        power: 130
+        type: 'co2'
+    pricing:
+      model: 'pay_per_time'
+      unit: minute
+      price: 0.50
+  'MakerBot Replicator 2 - Rolando':
+    vendor: 'MakerBot'
+    model: 'Replicator 2'
+    meta:
+       type: '3d_printer'
+       parameters:
+          bed_size:
+           height: 300
+           width: 300
+          heated_bed: true
+          extruders: 1
